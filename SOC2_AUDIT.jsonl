@@ -1,0 +1,4 @@
+{"trace_id":"a1b2c3","user":"alice@acme.com","cost_usd":0.0024,"saved_usd":0.0017,"compliance":"SOC2"}
+{"trace_id":"b2c3d4","user":"bob@acme.com","cost_usd":0.0024,"saved_usd":0.0017,"compliance":"SOC2"}
+{"trace_id":"c3d4e5","user":"enterprise","cost_usd":0.08,"saved_usd":0.06,"blocked":true,"reason":"injection"}
+{"trace_id":"d4e5f6","user":"loop_user","cost_usd":0.0,"saved_usd":2.4,"blocked":true,"reason":"loop"}

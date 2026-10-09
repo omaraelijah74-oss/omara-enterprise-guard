@@ -1,0 +1,16 @@
+[SRE AUTO-FIX 20:42:08] Detected LOOP in step=chat -> KILLED loop, reset budget, switched to mini. Saved $2.40
+LOOP chat x3 KILLED, reset budget, switched to mini. Saved $2.40 = UGX 9796
+SECURITY BLOCK: Prompt Injection 'ignore previous instructi' BLOCKED
+PRIVACY BLOCK: PII leak blocked
+429 Rate Limit on gpt-4o-mini -> Auto backoff + fallback to mini
+LOOP chat x3 KILLED, reset budget, switched to mini. Saved $2.40 = UGX 9796
+SECURITY BLOCK: Prompt Injection 'ignore previous instructi' BLOCKED
+PRIVACY BLOCK: PII leak blocked
+SECURITY BLOCK Injection ignore previous inst
+PRIVACY BLOCK PII
+SLA BREACH 2.63s > 2.0s -> fallback + Slack Alert
+429 Rate Limit gpt-4o-mini -> fallback mini
+SECURITY BLOCK Injection ignore previous inst
+PRIVACY BLOCK PII
+SLA BREACH 2.66s > 2.0s -> fallback + Slack Alert
+SLA BREACH 2.74s > 2.0s -> fallback + Slack Alert
